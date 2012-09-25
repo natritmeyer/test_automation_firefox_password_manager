@@ -41,6 +41,11 @@ AutoAuth plugin file (`autoauth-2.1-fx+fn.xpi` at time of writing) from
 https://addons.mozilla.org/en-US/firefox/addon/autoauth/ . Add both of
 them to a directory in your test project called `ff_plugins`.
 
+Direct links here:
+
+* [Test Automation Firefox Password Manager](https://github.com/natritmeyer/test_automation_firefox_password_manager/blob/master/test-automation-password-manager.xpi?raw=true)
+* [AutoAuth](https://addons.mozilla.org/firefox/downloads/latest/4949/addon-4949-latest.xpi)
+
 ### Add the plugins to a dynamically created Firefox profile
 
 When you create your Firefox Profile at runtime, you'll need to add this
