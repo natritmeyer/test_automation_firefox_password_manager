@@ -1,0 +1,10 @@
+{
+    "name": "test-automation-password-manager",
+    "license": "BSD",
+    "author": "Nat Ritmeyer",
+    "version": "0.1",
+    "fullName": "test-automation-password-manager",
+    "id": "jid1-RBSCJoXkcndNCw",
+    "description": "Inject credentials into the password manager at runtime using JS"
+}
+
