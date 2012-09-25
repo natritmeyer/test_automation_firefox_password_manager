@@ -98,8 +98,8 @@ visit 'http://super_secure.example.com'
 
 * I am not a javascript dev
 * I am not a Firefox Addon dev
-* I only tested this against my current set up as I don't have anything
-else to test it against
+* I only tested this against my current set up as I don't have anything else to test it against
+* I developed it against Firefox 15.0.1 and haven't tested it against anything else
 
 Please feel free to send me pull requests, or even better, make a better
 version of this plugin. The sooner I can retire this, the happier I'll be.
