@@ -50,6 +50,7 @@ plugin and the AutoAuth plugin:
 Capybara.register_driver :selenium_firefox do |app|
   #create the profile:
   profile = Selenium::WebDriver::Firefox::Profile.new
+
   #add the 2 plugins
   profile.add_extension(File.expand_path("ff_plugins/autoauth-2.1-fx+fn.xpi"))
   profile.add_extension(File.expand_path("ff_plugins/test-automation-password-manager.xpi"))
@@ -65,11 +66,9 @@ runtime:
 
 ```ruby
 #navigate to a page that won't prompt you for a password:
-
 visit 'http://www.google.com'
 
 #create the javascript that will send the relevant details to the password manager:
-
 pass_man_update_script = <<-SCRIPT
 var addCredentialsEvent = new CustomEvent("add_credentials_to_passman", {
   detail: {
@@ -82,11 +81,9 @@ window.dispatchEvent(addCredentialsEvent);
 SCRIPT
 
 #inject the script into the browser:
-
 page.execute_script pass_man_update_script
 
 #navigate to the page that prompts you for a password:
-
 visit 'http://super_secure.example.com' 
 #This used to present a password dialog that would cause the test to
 #fail, but now it doesn't! Woo!
