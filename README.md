@@ -35,15 +35,16 @@ anything else that can inject javascript into Firefox at runtime)
 
 ### Download the plugins
 
-First, you'll need to download the `test-automation-password-manager.xpi`
-file from this repo, and you'll also need to download the latest
-AutoAuth plugin file (`autoauth-2.1-fx+fn.xpi` at time of writing) from
+First, you'll need to download `test-automation-password-manager.xpi` from
+https://addons.mozilla.org/en-us/firefox/addon/test-automation-password-ma/,
+and you'll also need to download the latest AutoAuth plugin file
+(`autoauth-2.1-fx+fn.xpi` at time of writing) from
 https://addons.mozilla.org/en-US/firefox/addon/autoauth/ . Add both of
 them to a directory in your test project called `ff_plugins`.
 
 Direct links here:
 
-* [Test Automation Firefox Password Manager](https://github.com/natritmeyer/test_automation_firefox_password_manager/blob/master/test-automation-password-manager.xpi?raw=true)
+* [Test Automation Firefox Password Manager](https://addons.mozilla.org/firefox/downloads/file/170858/test_automation_password_manager-0.1-fx.xpi)
 * [AutoAuth](https://addons.mozilla.org/firefox/downloads/latest/4949/addon-4949-latest.xpi)
 
 ### Add the plugins to a dynamically created Firefox profile
